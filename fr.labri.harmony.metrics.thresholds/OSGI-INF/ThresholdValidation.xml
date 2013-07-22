@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="ThresholdValidation">
+   <implementation class="fr.labri.harmony.metrics.thresholds.ThresholdValidation"/>
+   <service>
+      <provide interface="fr.labri.harmony.core.analysis.PostProcessingAnalysis"/>
+   </service>
+</scr:component>
